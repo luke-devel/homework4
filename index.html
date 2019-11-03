@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <a class="navbar-brand" href="#">Coding Quiz</a>
+        <a class="nav-link" href="highscores.html">Highscores!</a>
+    </nav>
+
+    <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+            <p id=question></p>
+            <hr>
+            <div class="card-body">
+                <button id="answer-a" class="btn btn-primary btn-lg btn-block">A</button>
+                <button id="answer-b" class="btn btn-primary btn-lg btn-block">B</button>
+                <button id="answer-c" class="btn btn-primary btn-lg btn-block">C</button>
+                <button id="answer-d" class="btn btn-primary btn-lg btn-block">D</button>
+            </div>
+            <hr>
+            <h1 id=result></h1>
+        </div>
+        <script src="./questions.js"></script>
+        <script src="./script.js"></script>
+
+</body>
+
+</html>
